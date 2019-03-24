@@ -225,7 +225,8 @@ def get_top5_feat(df, i, n):
 
 #### Interpreting Principle Component #1
 
-![Weight of 10 variables of Component 1]()4
+![Weight of 10 variables of Component 1](https://github.com/yanglinjing/dsnd_p3_identify_customer_segments/blob/master/readme_img/4.png)
+
 
 `HH_EINKOMMEN_SCORE` with positive weight is on the opposite side of `FINANZ_MINIMALIST` with negative weight. When`HH_EINKOMMEN_SCORE` becomes lower, while `FINANZ_MINIMALIST`score higher, which means this person has higher income and lower financial interest.
 
