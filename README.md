@@ -155,8 +155,8 @@ def calculate_pca_p_of_var(pca):
 single_p, cumulative_p = calculate_pca_p_of_var(pca)
 ```
 
-![cumulative_p_100]()1
-![cumulative_p_100]()2
+![cumulative_p_100](https://github.com/yanglinjing/dsnd_p3_identify_customer_segments/blob/master/readme_img/1.png)
+![cumulative_p_100](https://github.com/yanglinjing/dsnd_p3_identify_customer_segments/blob/master/readme_img/2.png)
 
 - Check out the ratio of variance explained by each principal component as well as the cumulative variance explained. Then 69 transformed features were selected, which explains 95% variance.
 ```
@@ -177,7 +177,7 @@ X_pca.shape
 ```
 OUTPUT: (719624, 67)
 
-![cumulative_p_95]()3
+![cumulative_p_95](https://github.com/yanglinjing/dsnd_p3_identify_customer_segments/blob/master/readme_img/3.png)
 
 
 ### Step 2.3: Interpret Principal Components
@@ -284,7 +284,7 @@ for center in centers:
   scores.append(score)
 ```
 
-![k-means centroids]()5
+![k-means centroids](https://github.com/yanglinjing/dsnd_p3_identify_customer_segments/blob/master/readme_img/5.png)
 
 
 -  **Re-fit** a KMeans instance with the final chosen centroid number to perform the clustering operation.
@@ -324,7 +324,7 @@ Consider the proportion of persons in each cluster for the general population, a
 
 - On the other hand, the proportion of the data in a cluster being **larger** in the **general** population than the customer data suggests that group of persons to be** outside of the target **demographics (see cluster 1, 2, 3).
 
-![comparison]()6
+![comparison](https://github.com/yanglinjing/dsnd_p3_identify_customer_segments/blob/master/readme_img/6.png)
 
 Which cluster or clusters are **overrepresented** in the customer dataset compared to the general population?
 
@@ -360,7 +360,7 @@ Since StandardScaler was used on the scores, we know that
 
 From the bar plot in step 3.31, We can cleary see that Cluster 0 and 4 are over-represented in the customer data compared to the general population.
 
-![cluster0]()
+![cluster0](https://github.com/yanglinjing/dsnd_p3_identify_customer_segments/blob/master/readme_img/7.png)
 
 The following kinds of people are part of **Cluster 0**:
 1. Low financial interest (FINANZ_MINIMALIST)
@@ -376,7 +376,7 @@ The following kinds of people are part of **Cluster 0**:
 
 
 
-![cluster4]()
+![cluster4](https://github.com/yanglinjing/dsnd_p3_identify_customer_segments/blob/master/readme_img/8.png)
 
 The following kinds of people are part of **Cluster 4**:
 
