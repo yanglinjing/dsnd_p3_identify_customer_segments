@@ -293,7 +293,7 @@ for center in centers:
 ```
 kmeans = KMeans(n_clusters = 5)
 general_predict = kmeans.fit_predict(X_pca)
-
+```
 
 ### Step 3.2: Apply All Steps to the Customer Data
 
