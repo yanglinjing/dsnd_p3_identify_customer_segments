@@ -37,6 +37,25 @@ There are another two documents explaining features:
 (Note: Only some important codes are included here. To find all the codes, please see `.ipynb` document.)
 
 
+## Installation
+Python 3, Google Colab / Jupyter Notebook
+
+```
+import numpy as np
+import pandas as pd
+
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+import seaborn as sns
+
+from sklearn.preprocessing import Imputer, StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+
+from random import shuffle
+```
+
 ## Step 1: Preprocessing
 
 ### Step 1.1 Missing Values
