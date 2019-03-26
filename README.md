@@ -1,4 +1,4 @@
-# Identify Customer Segments
+# Identify Target Customers
 
 ### (Unsupervised Learning)
 
