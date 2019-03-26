@@ -416,6 +416,7 @@ We can find that the features of people in Cluster 0 and 4 are same. Thus, our**
 - They might have lower financial interests, lower movement, and higher income.
 - They might live in smaller size of community
 - They might have higher share of 1-2 family homes in the microcell which have more buildings.
+
 - In the PLZ8 region, they might have
  - higher share of 1-2 family homes,
  - lower share of 6-10 family homes, and
